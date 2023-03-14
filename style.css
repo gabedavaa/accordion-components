@@ -84,10 +84,15 @@ body {
 
 .open .hidden-box {
   display: block;
-  transition: all 0.3s ease-out;
+  transition: 0.2s ease;
 }
 
 .open .number,
 .open .text {
   color: #087f5b;
+}
+
+.arrow {
+  transform: rotate(180deg);
+  transition: 0.2s ease;
 }
